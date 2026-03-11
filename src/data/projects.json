@@ -6,7 +6,7 @@
     "date": "2025-06-01",
     "tags": ["Python", "Claude API"],
     "description": "Automatically screen and match CVs against open job positions. The tool extracts text from PDF and Word files, analyzes it with Claude AI, and compares the candidate's profile to the job requirements. For each requirement, a detailed match analysis is provided (match, indirect, or missing) including supporting evidence from the CV. Built with FastAPI and the Anthropic SDK.",
-    "images": ["/Project-Dashboard/images/cv-matcher-hero.png"],
+    "images": ["/AI-Dashboard/images/cv-matcher-hero.png"],
     "isPlaceholder": false
   },
   {
@@ -16,7 +16,7 @@
     "date": "2025-06-15",
     "tags": ["Next.js", "Mapbox", "AI"],
     "description": "Electus is a smart software platform built to take the tedious busywork out of the hiring process. In the fast-paced world of recruitment, teams often spend countless hours manually reading through resumes, comparing them to job descriptions, and painstakingly reformatting them to look professional for their clients. Electus solves this problem by using AI to do the heavy lifting. It instantly analyzes a new job opening and scans your talent pool to find the absolute best candidates for the role. Once the right person is matched, the system automatically rewrites and designs their CV into a clean, branded format that is instantly ready to be sent out. By automating these slow, repetitive tasks, Electus saves agencies hours of admin work every week, freeing up recruiters to focus on what really matters: having great conversations and building relationships with people.",
-    "images": ["/Project-Dashboard/images/electus-hero.png"],
+    "images": ["/AI-Dashboard/images/electus-hero.png"],
     "isPlaceholder": false
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-03-01",
     "tags": ["Next.js", "AI", "Claude API"],
     "description": "Every marketing team knows the struggle: you've invested weeks into a detailed whitepaper, but now you need to get that knowledge out into the world through blog content. Rewriting it manually takes hours, and the results often feel repetitive or disconnected.\nBlogWriter solves this in seconds. Upload your whitepaper as a PDF or Word document, optionally tell the AI what to focus on — a specific audience, certain keywords, or a particular angle — and it does the rest. The AI reads your entire document, identifies the most valuable themes, and writes 3 to 7 standalone blog posts, each with its own compelling title, SEO meta description, and a natural, engaging flow.\nWhat makes BlogWriter different is that every post it generates stands on its own. Your readers don't need to have read the whitepaper or any of the other posts. The writing style is professional yet warm, grounded in practical examples rather than corporate buzzwords. Once the posts appear on screen, a single click copies any article straight to your clipboard, ready to paste into your CMS and publish.\nOne whitepaper in, a full week of content out. That's BlogWriter — built for marketing teams who want to squeeze every drop of value from the content they've already created.",
-    "images": ["/Project-Dashboard/images/blogwriter-hero.png"],
+    "images": ["/AI-Dashboard/images/blogwriter-hero.png"],
     "isPlaceholder": false
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-03-10",
     "tags": ["Next.js", "Tailwind", "Framer Motion"],
     "description": "A sleek project dashboard built with Next.js and Tailwind CSS to showcase all Qquest projects in a modern bento grid layout. Features smooth animations with Framer Motion, responsive design, and a dark-themed UI with project cards displaying status, tags, and screenshots.",
-    "images": ["/Project-Dashboard/images/ai-dashboard-hero.png"],
+    "images": ["/AI-Dashboard/images/ai-dashboard-hero.png"],
     "isPlaceholder": false
   }
 ]
