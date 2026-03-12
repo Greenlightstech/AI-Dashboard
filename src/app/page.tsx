@@ -11,7 +11,7 @@ export default function Home() {
       {/* Header */}
       <header className="mb-12 sm:mb-16">
         <Image
-          src="/AI-Dashboard/images/qquest-logo-dark.png"
+          src="/images/qquest-logo-dark.png"
           alt="Qquest logo"
           width={160}
           height={48}

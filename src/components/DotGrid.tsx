@@ -40,8 +40,8 @@ export default function DotGrid() {
 
     function createDots() {
       dots = [];
-      const w = window.innerWidth;
-      const h = window.innerHeight;
+      const w = canvas!.clientWidth;
+      const h = canvas!.clientHeight;
       const cols = Math.ceil(w / DOT_SPACING) + 1;
       const rows = Math.ceil(h / DOT_SPACING) + 1;
 
@@ -69,10 +69,18 @@ export default function DotGrid() {
 
     function resize() {
       const dpr = window.devicePixelRatio || 1;
-      canvas!.width = window.innerWidth * dpr;
-      canvas!.height = window.innerHeight * dpr;
-      canvas!.style.width = `${window.innerWidth}px`;
-      canvas!.style.height = `${window.innerHeight}px`;
+      const docW = Math.max(
+        document.documentElement.scrollWidth,
+        window.innerWidth
+      );
+      const docH = Math.max(
+        document.documentElement.scrollHeight,
+        window.innerHeight
+      );
+      canvas!.width = docW * dpr;
+      canvas!.height = docH * dpr;
+      canvas!.style.width = `${docW}px`;
+      canvas!.style.height = `${docH}px`;
       ctx!.setTransform(dpr, 0, 0, dpr, 0, 0);
       createDots();
     }
@@ -131,8 +139,8 @@ export default function DotGrid() {
     }
 
     function handleMouseMove(e: MouseEvent) {
-      mouse.x = e.clientX;
-      mouse.y = e.clientY;
+      mouse.x = e.clientX + window.scrollX;
+      mouse.y = e.clientY + window.scrollY;
     }
 
     function handleMouseLeave() {
@@ -159,7 +167,7 @@ export default function DotGrid() {
   return (
     <canvas
       ref={canvasRef}
-      className="pointer-events-none fixed inset-0 z-0"
+      className="pointer-events-none absolute left-0 top-0 z-0"
     />
   );
 }
