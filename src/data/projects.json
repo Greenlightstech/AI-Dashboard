@@ -17,6 +17,7 @@
     "tags": ["Next.js", "Mapbox", "AI"],
     "description": "Electus is a smart software platform built to take the tedious busywork out of the hiring process. In the fast-paced world of recruitment, teams often spend countless hours manually reading through resumes, comparing them to job descriptions, and painstakingly reformatting them to look professional for their clients. Electus solves this problem by using AI to do the heavy lifting. It instantly analyzes a new job opening and scans your talent pool to find the absolute best candidates for the role. Once the right person is matched, the system automatically rewrites and designs their CV into a clean, branded format that is instantly ready to be sent out. By automating these slow, repetitive tasks, Electus saves agencies hours of admin work every week, freeing up recruiters to focus on what really matters: having great conversations and building relationships with people.",
     "images": ["/images/electus-hero.png"],
+    "video": "/videos/ElectusAd.mp4",
     "isPlaceholder": false
   },
   {

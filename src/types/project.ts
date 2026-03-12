@@ -6,5 +6,6 @@ export interface Project {
   tags?: string[];
   description?: string;
   images?: string[];
+  video?: string;
   isPlaceholder: boolean;
 }

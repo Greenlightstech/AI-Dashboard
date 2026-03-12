@@ -76,8 +76,20 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               </svg>
             </button>
 
-            {/* Hero image */}
-            {project.images?.[0] && (
+            {/* Hero video or image */}
+            {project.video ? (
+              <div className="relative aspect-video w-full overflow-hidden">
+                <video
+                  src={project.video}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="h-full w-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#111318] via-transparent to-transparent pointer-events-none" />
+              </div>
+            ) : project.images?.[0] ? (
               <div className="relative aspect-video w-full overflow-hidden">
                 <Image
                   src={project.images[0]}
@@ -88,7 +100,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111318] via-transparent to-transparent" />
               </div>
-            )}
+            ) : null}
 
             {/* Content */}
             <div className="px-6 pb-8 pt-4 sm:px-8">
