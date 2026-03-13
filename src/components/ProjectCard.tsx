@@ -27,6 +27,11 @@ const tagColors: Record<string, string> = {
   "Claude API": "bg-amber-500/15 text-amber-400",
   "Framer Motion": "bg-pink-500/15 text-pink-400",
   n8n: "bg-rose-500/15 text-rose-400",
+  Express: "bg-gray-500/15 text-gray-300",
+  TypeScript: "bg-blue-500/15 text-blue-400",
+  JavaScript: "bg-yellow-500/15 text-yellow-300",
+  EJS: "bg-lime-500/15 text-lime-400",
+  "Node.js": "bg-green-500/15 text-green-400",
 };
 
 export default function ProjectCard({ project, index, onClick }: ProjectCardProps) {

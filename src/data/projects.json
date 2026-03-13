@@ -49,5 +49,15 @@
     "description": "Keeps tabs on how Qquest's LinkedIn posts are performing — automatically. Four times a day, it pulls in the latest numbers: clicks, impressions, likes, comments, new followers, and more. Everything lands neatly in a shared Google Sheet, so the marketing team always has a fresh overview without lifting a finger. No more manual copy-pasting stats from LinkedIn or link trackers. Just post, and the data takes care of itself.",
     "images": ["/images/linkedin-tracker-hero.png"],
     "isPlaceholder": false
+  },
+  {
+    "id": "06",
+    "title": "Narrowcaster",
+    "status": "Completed",
+    "date": "2026-03-13",
+    "tags": ["Express", "TypeScript", "JavaScript", "EJS", "Node.js"],
+    "description": "A custom-built digital signage dashboard for the Qquest office. Displays live info on office TVs — weather, train departures, stock tickers, daily recipes, and team highlights — all in one glance. Keeps the team informed and the office vibe sharp, without anyone having to open an app.",
+    "images": ["/images/narrowcaster.png"],
+    "isPlaceholder": false
   }
 ]
