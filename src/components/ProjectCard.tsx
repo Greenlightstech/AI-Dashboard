@@ -26,6 +26,7 @@ const tagColors: Record<string, string> = {
   Tailwind: "bg-teal-500/15 text-teal-400",
   "Claude API": "bg-amber-500/15 text-amber-400",
   "Framer Motion": "bg-pink-500/15 text-pink-400",
+  n8n: "bg-rose-500/15 text-rose-400",
 };
 
 export default function ProjectCard({ project, index, onClick }: ProjectCardProps) {
